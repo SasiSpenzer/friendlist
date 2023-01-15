@@ -80,7 +80,7 @@ function makeDelete(id) {
                 }).done(function (e) {;
                     Swal.fire(
                         'Deleted!',
-                        'Your file has been deleted.',
+                        'Your Friend has been Removed.',
                         'success'
                     )
                     $("#"+id+"").hide('slow');
