@@ -42,8 +42,9 @@ $(document).ready(function () {
             });
         } else {
             $("#showEmailErrors").show();
+            $("#loaderT").hide();
             setTimeout(function(){
-                $("#loaderT").hide();
+
                 $("#showEmailErrors").hide('slow');
             }, 2000);
         }
